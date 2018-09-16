@@ -1044,42 +1044,42 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-apollo-boost@^0.1.15:
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/apollo-boost/-/apollo-boost-0.1.15.tgz#86357437fe150383d9c75f483cf656013c243258"
+apollo-boost@^0.1.16:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/apollo-boost/-/apollo-boost-0.1.16.tgz#77f73a30c49ab6d749ddc3e5683a7e322c15f07d"
   dependencies:
-    apollo-cache "^1.1.16"
-    apollo-cache-inmemory "^1.2.9"
-    apollo-client "^2.4.1"
+    apollo-cache "^1.1.17"
+    apollo-cache-inmemory "^1.2.10"
+    apollo-client "^2.4.2"
     apollo-link "^1.0.6"
     apollo-link-error "^1.0.3"
     apollo-link-http "^1.3.1"
     apollo-link-state "^0.4.0"
     graphql-tag "^2.4.2"
 
-apollo-cache-inmemory@^1.2.9:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/apollo-cache-inmemory/-/apollo-cache-inmemory-1.2.9.tgz#26e0c8c6a6c865bf9987d741114388cdbc3fae23"
+apollo-cache-inmemory@^1.2.10:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/apollo-cache-inmemory/-/apollo-cache-inmemory-1.2.10.tgz#362d6c36cfd815a309b966f71e5d2b6c770c7989"
   dependencies:
-    apollo-cache "^1.1.16"
-    apollo-utilities "^1.0.20"
-    graphql-anywhere "^4.1.18"
+    apollo-cache "^1.1.17"
+    apollo-utilities "^1.0.21"
+    graphql-anywhere "^4.1.19"
 
-apollo-cache@1.1.16, apollo-cache@^1.1.16:
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.1.16.tgz#0c7460ee8eff1898462979143b4e922aaba73cf8"
+apollo-cache@1.1.17, apollo-cache@^1.1.17:
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/apollo-cache/-/apollo-cache-1.1.17.tgz#1fcca8423125223723b97fd72808be91a1a76490"
   dependencies:
-    apollo-utilities "^1.0.20"
+    apollo-utilities "^1.0.21"
 
-apollo-client@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-2.4.1.tgz#d2ebaac1831fa170f7d0070bb9d581cccb5f64e3"
+apollo-client@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-2.4.2.tgz#d2f044d8740723bf98a6d8d8b9684ee8c36150e6"
   dependencies:
     "@types/zen-observable" "^0.8.0"
-    apollo-cache "1.1.16"
+    apollo-cache "1.1.17"
     apollo-link "^1.0.0"
     apollo-link-dedup "^1.0.0"
-    apollo-utilities "1.0.20"
+    apollo-utilities "1.0.21"
     symbol-observable "^1.0.2"
     zen-observable "^0.8.0"
   optionalDependencies:
@@ -1125,7 +1125,14 @@ apollo-link@^1.0.0, apollo-link@^1.0.6, apollo-link@^1.2.2:
     apollo-utilities "^1.0.0"
     zen-observable-ts "^0.8.9"
 
-apollo-utilities@1.0.20, apollo-utilities@^1.0.0, apollo-utilities@^1.0.20, apollo-utilities@^1.0.8:
+apollo-utilities@1.0.21, apollo-utilities@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.21.tgz#cb8b5779fe275850b16046ff8373f4af2de90765"
+  dependencies:
+    fast-json-stable-stringify "^2.0.0"
+    fclone "^1.0.11"
+
+apollo-utilities@^1.0.0, apollo-utilities@^1.0.20, apollo-utilities@^1.0.8:
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-1.0.20.tgz#b14318686cb67838279fb5f009cca0ec97a4d140"
   dependencies:
@@ -1337,6 +1344,13 @@ babel-plugin-transform-vue-jsx@^4.0.1:
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-vue-jsx/-/babel-plugin-transform-vue-jsx-4.0.1.tgz#2c8bddce87a6ef09eaa59869ff1bfbeeafc5f88d"
   dependencies:
     esutils "^2.0.2"
+
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 babylon@7.0.0-beta.44:
   version "7.0.0-beta.44"
@@ -1769,6 +1783,10 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
 
+clone@^2.1.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -1949,7 +1967,7 @@ copy-webpack-plugin@^4.5.2:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@^2.5.3, core-js@^2.5.7:
+core-js@^2.4.0, core-js@^2.5.3, core-js@^2.5.7:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
@@ -2878,6 +2896,10 @@ faye-websocket@~0.11.0:
   dependencies:
     websocket-driver ">=0.5.1"
 
+fclone@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
+
 figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
@@ -3001,6 +3023,10 @@ follow-redirects@^1.0.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.7.tgz#a39e4804dacb90202bca76a9e2ac10433ca6a69a"
   dependencies:
     debug "^3.1.0"
+
+font-awesome@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -3213,13 +3239,19 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphql-anywhere@^4.1.0-alpha.0, graphql-anywhere@^4.1.18:
+graphql-anywhere@^4.1.0-alpha.0:
   version "4.1.18"
   resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-4.1.18.tgz#29bfc5d42bf8ee1f5cdc9a9857c98c3eb4b7fab4"
   dependencies:
     apollo-utilities "^1.0.20"
 
-graphql-tag@^2.4.2:
+graphql-anywhere@^4.1.19:
+  version "4.1.19"
+  resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-4.1.19.tgz#5f6ca3b58218e5449f4798e3c6d942fcd2fef082"
+  dependencies:
+    apollo-utilities "^1.0.21"
+
+graphql-tag@^2.4.2, graphql-tag@^2.9.2:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.9.2.tgz#2f60a5a981375f430bf1e6e95992427dc18af686"
 
@@ -3327,6 +3359,10 @@ he@1.1.x, he@^1.1.0:
 hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
+
+highlight.js@^9.12.0:
+  version "9.12.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -3983,6 +4019,12 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+katex@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.6.0.tgz#12418e09121c05c92041b6b3b9fb6bab213cb6f3"
+  dependencies:
+    match-at "^0.1.0"
+
 killable@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
@@ -4032,6 +4074,12 @@ levn@^0.3.0, levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
+
+linkify-it@~1.2.2:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-1.2.4.tgz#0773526c317c8fd13bd534ee1d180ff88abf881a"
+  dependencies:
+    uc.micro "^1.0.1"
 
 loader-fs-cache@^1.0.0:
   version "1.0.1"
@@ -4167,6 +4215,73 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markdown-it-abbr@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/markdown-it-abbr/-/markdown-it-abbr-1.0.4.tgz#d66b5364521cbb3dd8aa59dadfba2fb6865c8fd8"
+
+markdown-it-deflist@^2.0.1:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-deflist/-/markdown-it-deflist-2.0.3.tgz#5727db04184d3cb2bc6ee4a9641e3a1091d5fd6f"
+
+markdown-it-emoji@^1.1.1:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
+
+markdown-it-footnote@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-2.0.0.tgz#14e9c4f68ff12cf354fa365ae378276e8104ca94"
+
+markdown-it-ins@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-ins/-/markdown-it-ins-2.0.0.tgz#a5aa6a30f1e2f71e9497567cfdff40f1fde67483"
+
+markdown-it-katex@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-katex/-/markdown-it-katex-2.0.3.tgz#d7b86a1aea0b9d6496fab4e7919a18fdef589c39"
+  dependencies:
+    katex "^0.6.0"
+
+markdown-it-mark@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-mark/-/markdown-it-mark-2.0.0.tgz#46a1aa947105aed8188978e0a016179e404f42c7"
+
+markdown-it-sub@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-sub/-/markdown-it-sub-1.0.0.tgz#375fd6026eae7ddcb012497f6411195ea1e3afe8"
+
+markdown-it-sup@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
+
+markdown-it-task-lists@^2.0.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-task-lists/-/markdown-it-task-lists-2.1.1.tgz#f68f4d2ac2bad5a2c373ba93081a1a6848417088"
+
+markdown-it-toc-and-anchor@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/markdown-it-toc-and-anchor/-/markdown-it-toc-and-anchor-4.1.2.tgz#b271f694a70bf719e6b728056d7bd931d364214d"
+  dependencies:
+    clone "^2.1.0"
+    uslug "^1.0.4"
+
+markdown-it@^6.0.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-6.1.1.tgz#ced037f4473ee9f5153ac414f77dc83c91ba927c"
+  dependencies:
+    argparse "^1.0.7"
+    entities "~1.1.1"
+    linkify-it "~1.2.2"
+    mdurl "~1.0.1"
+    uc.micro "^1.0.1"
+
+match-at@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/match-at/-/match-at-0.1.1.tgz#25d040d291777704d5e6556bbb79230ec2de0540"
+
+material-design-icons-iconfont@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/material-design-icons-iconfont/-/material-design-icons-iconfont-3.0.3.tgz#154a1084047d4e27237fa7f5a37e1075ceea6df2"
+
 math-random@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/math-random/-/math-random-1.0.1.tgz#8b3aac588b8a66e4975e3cdea67f7bb329601fac"
@@ -4185,6 +4300,10 @@ mdn-data@^1.0.0:
 mdn-data@~1.1.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-1.1.4.tgz#50b5d4ffc4575276573c4eedb8780812a8419f01"
+
+mdurl@~1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -4358,6 +4477,10 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   resolved "http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+moment@^2.22.2:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -5462,7 +5585,7 @@ regenerate@^1.2.1, regenerate@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
 
-regenerator-runtime@^0.11.1:
+regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
 
@@ -6354,6 +6477,10 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+uc.micro@^1.0.1:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.5.tgz#0c65f15f815aa08b560a61ce8b4db7ffc3f45376"
+
 uglify-es@^3.3.4:
   version "3.3.9"
   resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.3.9.tgz#0c1c4f0700bed8dbc124cdb304d2592ca203e677"
@@ -6433,6 +6560,10 @@ universalify@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
 
+"unorm@>= 1.0.0":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/unorm/-/unorm-1.4.1.tgz#364200d5f13646ca8bcd44490271335614792300"
+
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
@@ -6495,6 +6626,12 @@ url@^0.11.0:
 use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
+
+uslug@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/uslug/-/uslug-1.0.4.tgz#b9a22f0914e0a86140633dacc302e5f4fa450677"
+  dependencies:
+    unorm ">= 1.0.0"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
@@ -6599,6 +6736,24 @@ vue-loader@^15.3.0:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-markdown@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/vue-markdown/-/vue-markdown-2.2.4.tgz#db0f774178f3bc91ee18c626d86a3a0d2de22746"
+  dependencies:
+    highlight.js "^9.12.0"
+    markdown-it "^6.0.1"
+    markdown-it-abbr "^1.0.3"
+    markdown-it-deflist "^2.0.1"
+    markdown-it-emoji "^1.1.1"
+    markdown-it-footnote "^2.0.0"
+    markdown-it-ins "^2.0.0"
+    markdown-it-katex "^2.0.3"
+    markdown-it-mark "^2.0.0"
+    markdown-it-sub "^1.0.0"
+    markdown-it-sup "^1.0.0"
+    markdown-it-task-lists "^2.0.1"
+    markdown-it-toc-and-anchor "^4.1.2"
 
 vue-progressbar@^0.7.5:
   version "0.7.5"
