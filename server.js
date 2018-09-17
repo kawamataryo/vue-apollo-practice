@@ -1,8 +1,8 @@
 // expressの呼び込み
 const express = require('express');
 // PORTの設定
-// もしenvにportが確立したらそのポートを、していなかったら8080を使う
-const port = process.env.PORT || 8080;
+// もしenvにportが確立したらそのポートを、していなかったら500を使う
+const port = process.env.PORT || 5000;
 // express()のインスタンス
 const app = express();
 
