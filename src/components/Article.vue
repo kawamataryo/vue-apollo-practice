@@ -6,22 +6,14 @@
             slot-scope="{ hover }"
             :class="`elevation-${hover ? 12 : 2}`"
         >
-          <v-img
-              class="white--text"
-              height="170px"
-              :src=post.thumbnail.url
-          >
-            <v-expand-transition>
-              <a
-                  v-bind:href="'/post/' + post.id"
-                  v-if="hover"
-                  class="d-flex transition-fast-in-fast-out blue darken-2 v-card--reveal display-1 white--text"
-                  style="height: 100%;"
-              >
-                  Read More
-              </a>
-            </v-expand-transition>
-          </v-img>
+          <a v-bind:href="'/post/' + post.id">
+            <v-img
+                class="white--text"
+                height="170px"
+                :src=post.thumbnail.url
+            >
+            </v-img>
+          </a>
           <v-card-title>
             <div>
               <h2>{{ post.title }}</h2>
@@ -63,13 +55,3 @@
   }
 </script>
 
-<style scoped>
-  .v-card--reveal {
-    align-items: center;
-    bottom: 0;
-    justify-content: center;
-    opacity: .5;
-    position: absolute;
-    width: 100%;
-  }
-</style>

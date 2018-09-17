@@ -10,7 +10,7 @@
             class="white--text"
         >
           <h1 class="white--text mb-2 display-3 text-xs-center">{{post.title}}</h1>
-          <p class="wihte-text text-xs-center">{{ post.description }}</p>
+          <p class="white-text text-xs-center">{{ post.description }}</p>
         </v-layout>
       </v-parallax>
     </section>
@@ -56,3 +56,9 @@
     }
   }
 </script>
+
+<style>
+  .v-parallax__image {
+    opacity: 1!important;
+  }
+</style>

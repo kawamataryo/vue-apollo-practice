@@ -17,7 +17,9 @@
         app
     >
       <v-list>
-        <v-list-tile>
+        <v-list-tile
+            to="/"
+        >
           <v-list-tile-action>
             <v-icon>home</v-icon>
           </v-list-tile-action>
@@ -34,7 +36,7 @@
 
     data() {
       return {
-        title: "DemoBlog",
+        title: "Sample Blog",
         rightDrawer: false,
       }
     }
@@ -42,5 +44,7 @@
 </script>
 
 <style scoped>
-
+  header {
+    height: 56px;
+  }
 </style>
